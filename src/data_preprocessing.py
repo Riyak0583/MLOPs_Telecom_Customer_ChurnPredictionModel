@@ -35,7 +35,7 @@ def data_preprocessing(df):
     
     '''
    
-    # STEP 1 : Ensuring drop the duplicate values.
+    # STEP 1 : Ensuring the duplicate values.
     df.drop_duplicates(inplace = True)
 
     # Step 2 : Feature Engineering (Optional).

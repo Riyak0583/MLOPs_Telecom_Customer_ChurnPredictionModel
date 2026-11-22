@@ -1,8 +1,10 @@
 import pandas as pd
 def data_ingestion():
     '''
-    * Title : 
+    * Title : "MLOps_Telecom_Customer_ChurnPredictionModel"
 
+    * ML type : Classification
+    
     * Independent Column [X]: 'customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents',
        'tenure', 'PhoneService', 'MultipleLines', 'InternetService',
        'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport',
