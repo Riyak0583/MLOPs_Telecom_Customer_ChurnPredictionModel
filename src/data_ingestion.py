@@ -3,7 +3,7 @@ def data_ingestion():
     '''
     * Title : "MLOps_Telecom_Customer_ChurnPredictionModel"
 
-    * ML type : Classification
+    * ML type : Classification 
     
     * Independent Column [X]: 'customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents',
        'tenure', 'PhoneService', 'MultipleLines', 'InternetService',
@@ -17,6 +17,7 @@ def data_ingestion():
     1. To predict the churn rate
     2. Use Clustering approach to predict and classify the cluster pattern such as {l1,l2,l3}
 
+   * accuracy : 79% 
     
     '''
 

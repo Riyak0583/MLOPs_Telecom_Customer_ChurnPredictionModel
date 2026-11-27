@@ -18,6 +18,8 @@ def data_preprocessing(df):
     # Step10: fit_resamlple the data so that target column balance
     # Step11: Return the preprocess train and test : X_train,X_test,y_train,y_test
     #-------------------------------------------------------------------------------------------
+
+
     # STEP 1 : Ensuring drop the duplicate values.
     df.drop_duplicates(inplace = True)
 
@@ -72,7 +74,7 @@ def data_preprocessing(df):
        - under_sampling technique
     '''
     smote = SMOTE(random_state=1)
-    X_train_resample,y_train_resample = SMOTE().fit_resample(X_train_transform,y_train)
+    X_train_resample,y_train_resample = smote.fit_resample(X_train_transform,y_train)
 
     # Step 11 : Return the preprocess data value
 

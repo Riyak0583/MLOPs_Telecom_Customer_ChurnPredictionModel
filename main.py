@@ -17,7 +17,7 @@ def main():
     X_train_resample, X_test_transform, y_train_resample, y_test = data_preprocessing(df)
 
     #Step3 : Model_Building
-    model = model_build(X_train_resample, X_test_transform, y_train_resample, y_test)
+    model = model_build(X_train_resample,y_train_resample)
 
     #Step4 : Model_Prediction
     y_pred = model_predict(model,X_test_transform)
